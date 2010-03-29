@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -300,8 +300,6 @@
 							<string>MainColumn</string>
 							<real>264</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>37 185 1235 593 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -312,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -331,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>378C451B1161231D004E383C</string>
+										<string>378C452511612461004E383C</string>
 										<key>history</key>
 										<array>
 											<string>370252CA1160ADF100CCBA7A</string>
@@ -347,7 +343,7 @@
 											<string>378C4507116120EB004E383C</string>
 											<string>378C4508116120EB004E383C</string>
 											<string>378C4516116122F0004E383C</string>
-											<string>378C4517116122F0004E383C</string>
+											<string>378C4521116123B2004E383C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -413,8 +409,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {949, 299}}</string>
-								<key>RubberWindowFrame</key>
-								<string>37 185 1235 593 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -492,8 +486,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {949, 221}}</string>
-										<key>RubberWindowFrame</key>
-										<string>37 185 1235 593 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -574,12 +566,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {1235, 257}}</string>
+						<string>{{0, 0}, {1235, 57}}</string>
+						<key>RubberWindowFrame</key>
+						<string>37 185 1235 593 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
 					<key>Proportion</key>
-					<string>257pt</string>
+					<string>57pt</string>
 				</dict>
 				<dict>
 					<key>ContentConfiguration</key>
@@ -598,8 +592,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {602, 142}}</string>
-									<string>{{602, 0}, {633, 142}}</string>
+									<string>{{0, 0}, {603, 132}}</string>
+									<string>{{603, 0}, {632, 132}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -614,8 +608,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {1235, 142}}</string>
-									<string>{{0, 142}, {1235, 149}}</string>
+									<string>{{0, 0}, {1235, 132}}</string>
+									<string>{{0, 132}, {1235, 358}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -635,7 +629,7 @@
 						<key>DebugSTDIOWindowFrame</key>
 						<string>{{200, 200}, {500, 300}}</string>
 						<key>Frame</key>
-						<string>{{0, 262}, {1235, 291}}</string>
+						<string>{{0, 62}, {1235, 490}}</string>
 						<key>PBXDebugSessionStackFrameViewKey</key>
 						<dict>
 							<key>DebugVariablesTableConfiguration</key>
@@ -645,16 +639,20 @@
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>403</real>
+								<real>402</real>
 							</array>
 							<key>Frame</key>
-							<string>{{602, 0}, {633, 142}}</string>
+							<string>{{603, 0}, {632, 132}}</string>
+							<key>RubberWindowFrame</key>
+							<string>37 185 1235 593 0 0 1280 778 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>37 185 1235 593 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
 					<key>Proportion</key>
-					<string>291pt</string>
+					<string>490pt</string>
 				</dict>
 			</array>
 			<key>Name</key>

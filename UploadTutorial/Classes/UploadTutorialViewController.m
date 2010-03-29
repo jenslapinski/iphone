@@ -1,7 +1,5 @@
 #import "UploadTutorialViewController.h"
 #import "UploadTutorialAppDelegate.h"
-//#import "UIImage+Resize.m"
-
 
 //#import "EPUploader.h"
 
@@ -65,30 +63,9 @@
 		[request setHTTPMethod:@"POST"];
 		[request addValue:contentType forHTTPHeaderField: @"Content-Type"];
 		
-
-	
-	
-	
-//	// scale to aspect fill
-//	CGSize size = CGSizeMake(320,480);
-//	UIImage *scaledImage = [imageView.image resizedImageWithContentMode: UIViewContentModeScaleAspectFill	bounds: size	interpolationQuality:kCGInterpolationDefault];
-//	
-//	// crop it centered
-//	int extraX = (int) (scaledImage.size.width - size.width);
-//	int extraY = (int) (scaledImage.size.height - size.height);
-//	CGRect cropRect = CGRectMake(extraX/2,extraY/2,size.width,size.height);
-//	UIImage *croppedImage = [scaledImage croppedImage: cropRect];
-//
-//	//		NSString *photoPath = [[NSBundle mainBundle] pathForResource:@"chosen" ofType:@"jpg"];
-//	//		NSData *photoData = [NSData dataWithContentsOfFile:photoPath];
-//	NSData *photoData = UIImageJPEGRepresentation(croppedImage, 60);
-	
-	NSData *photoData = UIImageJPEGRepresentation(imageView.image, 50);
-	
-	
-	
-	// croppedImage will be correctly scaled and cropped to the center
-	
+//		NSString *photoPath = [[NSBundle mainBundle] pathForResource:@"chosen" ofType:@"jpg"];
+//		NSData *photoData = [NSData dataWithContentsOfFile:photoPath];
+		NSData *photoData = UIImageJPEGRepresentation(imageView.image, 60);
 
 		NSMutableData *body = [NSMutableData data];
 
@@ -96,7 +73,7 @@
 	[body appendData:[@"Content-Disposition: form-data; name=\"photo-description\"\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 	[body appendData:[@"testing 123" dataUsingEncoding:NSUTF8StringEncoding]];
 	[body appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-	[body appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"userfile\"; filename=\"ipodfile.jpg\"\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[body appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"userfile\"; filename=\"image.jpg\"\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
 	[body appendData:[@"Content-Type: image/jpeg\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 	[body appendData:photoData];
 	[body appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
@@ -130,30 +107,15 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-	// Create a file name for the image
-	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-	[dateFormatter setTimeStyle:NSDateFormatterShortStyle];
-	[dateFormatter setDateStyle:NSDateFormatterShortStyle];
-	NSString *imageName = [NSString stringWithFormat:@"photo-%@.png",
-												 [dateFormatter stringFromDate:[NSDate date]]];
-	[dateFormatter release];	
-	
-	// Find the path to the documents directory
+	NSData *imageData = UIImageJPEGRepresentation(imageView.image, 90);
+
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:@"chosen.jpg"];
 	
-	// Now we get the full path to the file
-	NSString *fullPathToFile = [documentsDirectory stringByAppendingPathComponent:imageName];
-	
-	// Write out the data.
-	[imageData writeToFile:fullPathToFile atomically:NO];
-	
-	// Set the managedObject's imageLocation attribute and save the managed object context
-	[self.managedObject setValue:fullPathToFile forKey:@"imagePath"];
-	NSError *error = nil;
-	[[self.managedObject managedObjectContext] save:&error];
-	
-	[self dismissModalViewControllerAnimated:YES];
+	[imageData writeToFile:path atomically:YES];
+	[picker dismissModalViewControllerAnimated:YES];
+	imageView.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 }
 
 

@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {680, 378}}";
+			sepNavIntBoundsRect = "{{0, 0}, {888, 364}}";
 			sepNavSelRange = "{218, 1}";
-			sepNavVisRange = "{0, 695}";
+			sepNavVisRange = "{0, 464}";
 		};
 	};
 	1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {888, 670}}";
-			sepNavSelRange = "{642, 0}";
-			sepNavVisRange = "{237, 802}";
+			sepNavSelRange = "{236, 1}";
+			sepNavVisRange = "{0, 403}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* UploadTutorial */ = {
@@ -22,17 +22,17 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {888, 546}}";
+			sepNavIntBoundsRect = "{{0, 0}, {888, 532}}";
 			sepNavSelRange = "{620, 0}";
-			sepNavVisRange = "{58, 1117}";
+			sepNavVisRange = "{430, 634}";
 			sepNavWindowFrame = "{{15, 75}, {796, 698}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1050, 1694}}";
-			sepNavSelRange = "{2438, 0}";
-			sepNavVisRange = "{775, 609}";
+			sepNavIntBoundsRect = "{{0, 0}, {1050, 2296}}";
+			sepNavSelRange = "{5159, 0}";
+			sepNavVisRange = "{4993, 685}";
 			sepNavWindowFrame = "{{38, 54}, {796, 698}}";
 		};
 	};
@@ -46,8 +46,8 @@
 		);
 		breakpoints = (
 			370257ED1160D2B800CCBA7A /* UploadTutorialViewController.h:9 */,
-			370257EF1160D2C000CCBA7A /* UploadTutorialViewController.m:51 */,
-			37AAD8681160DC74004DE3FE /* UploadTutorialViewController.m:92 */,
+			370257EF1160D2C000CCBA7A /* UploadTutorialViewController.m:53 */,
+			37AAD8681160DC74004DE3FE /* UploadTutorialViewController.m:117 */,
 		);
 		codeSenseManager = 370252C71160AD2300CCBA7A /* Code sense */;
 		executables = (
@@ -81,7 +81,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					429,
+					670,
 					60,
 					20,
 					48,
@@ -270,6 +270,75 @@
 			378C449D116118AA004E383C /* PBXTextBookmark */ = 378C449D116118AA004E383C /* PBXTextBookmark */;
 			378C449E116118AE004E383C /* PBXTextBookmark */ = 378C449E116118AE004E383C /* PBXTextBookmark */;
 			378C44A2116118BE004E383C /* PBXTextBookmark */ = 378C44A2116118BE004E383C /* PBXTextBookmark */;
+			378C44A911611994004E383C /* PBXBookmark */ = 378C44A911611994004E383C /* PBXBookmark */;
+			378C44AA11611994004E383C /* PBXTextBookmark */ = 378C44AA11611994004E383C /* PBXTextBookmark */;
+			378C44AB11611994004E383C /* PBXTextBookmark */ = 378C44AB11611994004E383C /* PBXTextBookmark */;
+			378C44AC11611994004E383C /* PBXTextBookmark */ = 378C44AC11611994004E383C /* PBXTextBookmark */;
+			378C44AD11611994004E383C /* PBXBookmark */ = 378C44AD11611994004E383C /* PBXBookmark */;
+			378C44AE11611994004E383C /* PBXTextBookmark */ = 378C44AE11611994004E383C /* PBXTextBookmark */;
+			378C44AF11611994004E383C /* PBXTextBookmark */ = 378C44AF11611994004E383C /* PBXTextBookmark */;
+			378C44B011611995004E383C /* PBXTextBookmark */ = 378C44B011611995004E383C /* PBXTextBookmark */;
+			378C44B3116119EB004E383C /* PBXTextBookmark */ = 378C44B3116119EB004E383C /* PBXTextBookmark */;
+			378C44B411611A03004E383C /* PBXTextBookmark */ = 378C44B411611A03004E383C /* PBXTextBookmark */;
+			378C44B511611A03004E383C /* PBXTextBookmark */ = 378C44B511611A03004E383C /* PBXTextBookmark */;
+			378C44B611611A06004E383C /* PBXTextBookmark */ = 378C44B611611A06004E383C /* PBXTextBookmark */;
+			378C44B911611A33004E383C /* PBXTextBookmark */ = 378C44B911611A33004E383C /* PBXTextBookmark */;
+			378C44BA11611A33004E383C /* PBXTextBookmark */ = 378C44BA11611A33004E383C /* PBXTextBookmark */;
+			378C44BB11611A33004E383C /* PBXTextBookmark */ = 378C44BB11611A33004E383C /* PBXTextBookmark */;
+			378C44BC11611A33004E383C /* PBXTextBookmark */ = 378C44BC11611A33004E383C /* PBXTextBookmark */;
+			378C44BD11611A33004E383C /* PBXTextBookmark */ = 378C44BD11611A33004E383C /* PBXTextBookmark */;
+			378C44BE11611A33004E383C /* PBXTextBookmark */ = 378C44BE11611A33004E383C /* PBXTextBookmark */;
+			378C44BF11611A34004E383C /* PBXTextBookmark */ = 378C44BF11611A34004E383C /* PBXTextBookmark */;
+			378C44C011611A87004E383C /* PBXTextBookmark */ = 378C44C011611A87004E383C /* PBXTextBookmark */;
+			378C44C111611A87004E383C /* PBXTextBookmark */ = 378C44C111611A87004E383C /* PBXTextBookmark */;
+			378C44C211611A8F004E383C /* PBXTextBookmark */ = 378C44C211611A8F004E383C /* PBXTextBookmark */;
+			378C44CB11611B7E004E383C /* PBXTextBookmark */ = 378C44CB11611B7E004E383C /* PBXTextBookmark */;
+			378C44CF11611C5C004E383C /* PBXTextBookmark */ = 378C44CF11611C5C004E383C /* PBXTextBookmark */;
+			378C44D011611C5C004E383C /* PBXTextBookmark */ = 378C44D011611C5C004E383C /* PBXTextBookmark */;
+			378C44D111611C9A004E383C /* PBXTextBookmark */ = 378C44D111611C9A004E383C /* PBXTextBookmark */;
+			378C44D211611C9E004E383C /* PBXTextBookmark */ = 378C44D211611C9E004E383C /* PBXTextBookmark */;
+			378C44D411611F19004E383C /* PBXTextBookmark */ = 378C44D411611F19004E383C /* PBXTextBookmark */;
+			378C44D511611F19004E383C /* PBXTextBookmark */ = 378C44D511611F19004E383C /* PBXTextBookmark */;
+			378C44D611611F19004E383C /* PBXTextBookmark */ = 378C44D611611F19004E383C /* PBXTextBookmark */;
+			378C44D711611F19004E383C /* PBXTextBookmark */ = 378C44D711611F19004E383C /* PBXTextBookmark */;
+			378C44D811611F19004E383C /* PBXTextBookmark */ = 378C44D811611F19004E383C /* PBXTextBookmark */;
+			378C44DB11611F81004E383C /* PBXTextBookmark */ = 378C44DB11611F81004E383C /* PBXTextBookmark */;
+			378C44DC11611F81004E383C /* PBXTextBookmark */ = 378C44DC11611F81004E383C /* PBXTextBookmark */;
+			378C44DE11611F81004E383C /* PBXTextBookmark */ = 378C44DE11611F81004E383C /* PBXTextBookmark */;
+			378C44DF11611F81004E383C /* PBXTextBookmark */ = 378C44DF11611F81004E383C /* PBXTextBookmark */;
+			378C44E111611FA9004E383C /* PBXTextBookmark */ = 378C44E111611FA9004E383C /* PBXTextBookmark */;
+			378C44F41161202B004E383C /* PBXTextBookmark */ = 378C44F41161202B004E383C /* PBXTextBookmark */;
+			378C44F51161202B004E383C /* PBXTextBookmark */ = 378C44F51161202B004E383C /* PBXTextBookmark */;
+			378C44F61161202B004E383C /* PBXTextBookmark */ = 378C44F61161202B004E383C /* PBXTextBookmark */;
+			378C44F71161202B004E383C /* PBXTextBookmark */ = 378C44F71161202B004E383C /* PBXTextBookmark */;
+			378C44F81161202B004E383C /* PBXTextBookmark */ = 378C44F81161202B004E383C /* PBXTextBookmark */;
+			378C44F91161202B004E383C /* PBXTextBookmark */ = 378C44F91161202B004E383C /* PBXTextBookmark */;
+			378C44FA1161202B004E383C /* PBXTextBookmark */ = 378C44FA1161202B004E383C /* PBXTextBookmark */;
+			378C44FB1161202B004E383C /* PBXTextBookmark */ = 378C44FB1161202B004E383C /* PBXTextBookmark */;
+			378C44FC1161202B004E383C /* PBXTextBookmark */ = 378C44FC1161202B004E383C /* PBXTextBookmark */;
+			378C44FD1161202B004E383C /* PBXTextBookmark */ = 378C44FD1161202B004E383C /* PBXTextBookmark */;
+			378C44FE1161202B004E383C /* PBXTextBookmark */ = 378C44FE1161202B004E383C /* PBXTextBookmark */;
+			378C44FF1161202C004E383C /* PBXTextBookmark */ = 378C44FF1161202C004E383C /* PBXTextBookmark */;
+			378C450011612033004E383C /* PBXTextBookmark */ = 378C450011612033004E383C /* PBXTextBookmark */;
+			378C45031161203E004E383C /* PBXTextBookmark */ = 378C45031161203E004E383C /* PBXTextBookmark */;
+			378C45041161203E004E383C /* PBXTextBookmark */ = 378C45041161203E004E383C /* PBXTextBookmark */;
+			378C450511612070004E383C /* PBXTextBookmark */ = 378C450511612070004E383C /* PBXTextBookmark */;
+			378C450611612070004E383C /* PBXTextBookmark */ = 378C450611612070004E383C /* PBXTextBookmark */;
+			378C4507116120EB004E383C /* PBXBookmark */ = 378C4507116120EB004E383C /* PBXBookmark */;
+			378C4508116120EB004E383C /* PBXTextBookmark */ = 378C4508116120EB004E383C /* PBXTextBookmark */;
+			378C4509116120EB004E383C /* PBXTextBookmark */ = 378C4509116120EB004E383C /* PBXTextBookmark */;
+			378C450A116120EB004E383C /* PBXTextBookmark */ = 378C450A116120EB004E383C /* PBXTextBookmark */;
+			378C450B116120EB004E383C /* PBXBookmark */ = 378C450B116120EB004E383C /* PBXBookmark */;
+			378C450C116120EB004E383C /* PBXTextBookmark */ = 378C450C116120EB004E383C /* PBXTextBookmark */;
+			378C450D116120EB004E383C /* PBXTextBookmark */ = 378C450D116120EB004E383C /* PBXTextBookmark */;
+			378C451111612190004E383C /* PBXTextBookmark */ = 378C451111612190004E383C /* PBXTextBookmark */;
+			378C451211612190004E383C /* PBXTextBookmark */ = 378C451211612190004E383C /* PBXTextBookmark */;
+			378C4516116122F0004E383C /* PBXTextBookmark */ = 378C4516116122F0004E383C /* PBXTextBookmark */;
+			378C4517116122F0004E383C /* PBXTextBookmark */ = 378C4517116122F0004E383C /* PBXTextBookmark */;
+			378C4518116122F0004E383C /* PBXTextBookmark */ = 378C4518116122F0004E383C /* PBXTextBookmark */;
+			378C4519116122F0004E383C /* PBXTextBookmark */ = 378C4519116122F0004E383C /* PBXTextBookmark */;
+			378C451A116122F0004E383C /* PBXTextBookmark */ = 378C451A116122F0004E383C /* PBXTextBookmark */;
+			378C451B1161231D004E383C /* PBXTextBookmark */ = 378C451B1161231D004E383C /* PBXTextBookmark */;
 			37AAD8831160DDB9004DE3FE = 37AAD8831160DDB9004DE3FE /* PBXBookmark */;
 			37AAD8851160DDB9004DE3FE = 37AAD8851160DDB9004DE3FE /* PBXBookmark */;
 			37AAD9601160E925004DE3FE = 37AAD9601160E925004DE3FE /* PBXTextBookmark */;
@@ -488,7 +557,7 @@
 		modificationTime = 291575241.211737;
 		state = 2;
 	};
-	370257EF1160D2C000CCBA7A /* UploadTutorialViewController.m:51 */ = {
+	370257EF1160D2C000CCBA7A /* UploadTutorialViewController.m:53 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -500,7 +569,7 @@
 		functionName = "-uploadPhoto:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 51;
+		lineNumber = 53;
 		location = UploadTutorial;
 		modificationTime = 291575241.212176;
 		state = 2;
@@ -510,7 +579,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 99";
 		rLen = 0;
-		rLoc = 3595;
+		rLoc = 4381;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 2970;
@@ -534,7 +603,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 142";
 		rLen = 0;
-		rLoc = 5463;
+		rLoc = 6837;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 3354;
@@ -544,7 +613,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 99";
 		rLen = 0;
-		rLoc = 3595;
+		rLoc = 4381;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 2970;
@@ -564,7 +633,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 142";
 		rLen = 0;
-		rLoc = 5463;
+		rLoc = 6837;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 3354;
@@ -578,7 +647,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 58";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 906;
@@ -588,7 +657,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 41";
 		rLen = 1;
-		rLoc = 905;
+		rLoc = 935;
 		rType = 0;
 		vrLen = 1030;
 		vrLoc = 1132;
@@ -598,7 +667,7 @@
 		comments = "error: 'locations' undeclared (first use in this function)";
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		rLen = 0;
-		rLoc = 91;
+		rLoc = 116;
 		rType = 1;
 	};
 	378C43B711611003004E383C /* PBXTextBookmark */ = {
@@ -606,7 +675,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 62";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 975;
@@ -636,7 +705,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 62";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 975;
@@ -646,7 +715,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 62";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 975;
@@ -726,7 +795,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 49";
 		rLen = 0;
-		rLoc = 1082;
+		rLoc = 1114;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 906;
@@ -736,7 +805,7 @@
 		comments = "error: expected expression before ':' token";
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		rLen = 0;
-		rLoc = 91;
+		rLoc = 116;
 		rType = 1;
 	};
 	378C43CA11611196004E383C /* PBXTextBookmark */ = {
@@ -744,7 +813,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 53";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1631;
 		vrLoc = 945;
@@ -754,7 +823,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 52";
 		rLen = 0;
-		rLoc = 1072;
+		rLoc = 1102;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 853;
@@ -774,7 +843,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 52";
 		rLen = 0;
-		rLoc = 1072;
+		rLoc = 1102;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 853;
@@ -844,7 +913,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 52";
 		rLen = 0;
-		rLoc = 1072;
+		rLoc = 1102;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 853;
@@ -874,7 +943,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 77";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 1583;
@@ -884,7 +953,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 57";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1947;
 		vrLoc = 945;
@@ -894,7 +963,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 2149;
 		vrLoc = 945;
@@ -904,7 +973,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 778;
@@ -924,7 +993,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 305;
 		vrLoc = 945;
@@ -934,7 +1003,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 12";
 		rLen = 11;
-		rLoc = 266;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -944,7 +1013,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 12";
 		rLen = 11;
-		rLoc = 266;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 0;
@@ -954,7 +1023,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 12";
 		rLen = 11;
-		rLoc = 266;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -964,7 +1033,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 12";
 		rLen = 11;
-		rLoc = 266;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 500;
@@ -986,7 +1055,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 12";
 		rLen = 11;
-		rLoc = 266;
+		rLoc = 296;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 500;
@@ -1011,7 +1080,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 594;
 		vrLoc = 887;
@@ -1021,7 +1090,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 565;
 		vrLoc = 858;
@@ -1031,7 +1100,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 3407;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 212;
 		vrLoc = 1015;
@@ -1041,7 +1110,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 1130;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 1086;
 		vrLoc = 1081;
@@ -1051,7 +1120,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 1130;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 858;
@@ -1061,7 +1130,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 54";
 		rLen = 0;
-		rLoc = 1130;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 440;
 		vrLoc = 1081;
@@ -1071,7 +1140,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 60";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 1083;
@@ -1081,7 +1150,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 60";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 1201;
@@ -1091,7 +1160,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 60";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 338;
 		vrLoc = 1083;
@@ -1101,7 +1170,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 60";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 909;
@@ -1111,7 +1180,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 1056;
 		vrLoc = 1250;
@@ -1121,7 +1190,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 1083;
@@ -1131,7 +1200,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 1250;
@@ -1198,7 +1267,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 1250;
@@ -1268,7 +1337,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 1012;
@@ -1278,7 +1347,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 1083;
@@ -1288,7 +1357,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 67";
 		rLen = 21;
-		rLoc = 3386;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 1704;
@@ -1298,7 +1367,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 64";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 1201;
@@ -1308,7 +1377,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 64";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 1118;
@@ -1318,7 +1387,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 64";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 319;
 		vrLoc = 1701;
@@ -1328,7 +1397,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 66";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 1083;
@@ -1338,7 +1407,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 66";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 1083;
@@ -1348,7 +1417,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 66";
 		rLen = 0;
-		rLoc = 1526;
+		rLoc = 1558;
 		rType = 0;
 		vrLen = 310;
 		vrLoc = 1596;
@@ -1358,7 +1427,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 69";
 		rLen = 0;
-		rLoc = 1915;
+		rLoc = 2701;
 		rType = 0;
 		vrLen = 1038;
 		vrLoc = 1083;
@@ -1368,7 +1437,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 69";
 		rLen = 0;
-		rLoc = 1915;
+		rLoc = 2701;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 1379;
@@ -1378,7 +1447,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 69";
 		rLen = 0;
-		rLoc = 1915;
+		rLoc = 2701;
 		rType = 0;
 		vrLen = 340;
 		vrLoc = 1524;
@@ -1388,7 +1457,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 70";
 		rLen = 20;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 1421;
@@ -1398,7 +1467,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 70";
 		rLen = 20;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 1524;
@@ -1408,7 +1477,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 70";
 		rLen = 20;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 340;
 		vrLoc = 1524;
@@ -1418,7 +1487,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 89";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 2884;
@@ -1428,7 +1497,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 89";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 2621;
@@ -1438,7 +1507,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 89";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 455;
 		vrLoc = 2884;
@@ -1460,7 +1529,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 89";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 4125;
 		rType = 0;
 		vrLen = 455;
 		vrLoc = 2884;
@@ -1485,7 +1554,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 0;
-		rLoc = 3337;
+		rLoc = 4123;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 1796;
@@ -1495,7 +1564,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 0;
-		rLoc = 3337;
+		rLoc = 4123;
 		rType = 0;
 		vrLen = 963;
 		vrLoc = 1599;
@@ -1505,7 +1574,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 0;
-		rLoc = 3337;
+		rLoc = 4123;
 		rType = 0;
 		vrLen = 393;
 		vrLoc = 1910;
@@ -1515,7 +1584,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 77";
 		rLen = 688;
-		rLoc = 2649;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 1349;
 		vrLoc = 2344;
@@ -1525,7 +1594,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 77";
 		rLen = 688;
-		rLoc = 2649;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 1526;
 		vrLoc = 1910;
@@ -1535,7 +1604,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 77";
 		rLen = 688;
-		rLoc = 2649;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 2344;
@@ -1545,7 +1614,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 76";
 		rLen = 30;
-		rLoc = 2619;
+		rLoc = 3405;
 		rType = 0;
 		vrLen = 1638;
 		vrLoc = 1911;
@@ -1555,7 +1624,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 76";
 		rLen = 30;
-		rLoc = 2619;
+		rLoc = 3405;
 		rType = 0;
 		vrLen = 1656;
 		vrLoc = 1707;
@@ -1565,7 +1634,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 76";
 		rLen = 30;
-		rLoc = 2619;
+		rLoc = 3405;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 2621;
@@ -1575,7 +1644,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 288;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 1796;
@@ -1585,7 +1654,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 288;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 1641;
 		vrLoc = 1634;
@@ -1595,7 +1664,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 288;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 2153;
@@ -1605,7 +1674,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 115;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 1663;
 		vrLoc = 1704;
@@ -1615,7 +1684,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 115;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 1646;
 		vrLoc = 1599;
@@ -1625,7 +1694,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 73";
 		rLen = 115;
-		rLoc = 2234;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 1911;
@@ -1635,7 +1704,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 45;
-		rLoc = 2477;
+		rLoc = 3263;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 1634;
@@ -1645,7 +1714,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 45;
-		rLoc = 2477;
+		rLoc = 3263;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 1634;
@@ -1655,7 +1724,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 45;
-		rLoc = 2477;
+		rLoc = 3263;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 1910;
@@ -1677,7 +1746,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 45;
-		rLoc = 2477;
+		rLoc = 3263;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 1910;
@@ -1702,7 +1771,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 72";
 		rLen = 0;
-		rLoc = 2233;
+		rLoc = 3019;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 1704;
@@ -1712,7 +1781,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 127;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 1796;
@@ -1722,7 +1791,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 127;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 1419;
 		vrLoc = 1818;
@@ -1732,7 +1801,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 127;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 2229;
@@ -1742,7 +1811,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 81";
 		rLen = 0;
-		rLoc = 3082;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 1475;
 		vrLoc = 1861;
@@ -1752,7 +1821,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 81";
 		rLen = 0;
-		rLoc = 3082;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 2022;
@@ -1762,7 +1831,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 81";
 		rLen = 0;
-		rLoc = 3082;
+		rLoc = 3868;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 2022;
@@ -1772,7 +1841,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 84";
 		rLen = 2;
-		rLoc = 3219;
+		rLoc = 4005;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 2526;
@@ -1782,7 +1851,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 84";
 		rLen = 2;
-		rLoc = 3219;
+		rLoc = 4005;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 2344;
@@ -1792,7 +1861,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 84";
 		rLen = 2;
-		rLoc = 3219;
+		rLoc = 4005;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 2526;
@@ -1802,7 +1871,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 85";
 		rLen = 116;
-		rLoc = 3221;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 2886;
@@ -1812,7 +1881,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 85";
 		rLen = 116;
-		rLoc = 3221;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 2623;
@@ -1822,7 +1891,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 85";
 		rLen = 116;
-		rLoc = 3221;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 455;
 		vrLoc = 2886;
@@ -1832,7 +1901,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 83";
 		rLen = 0;
-		rLoc = 3197;
+		rLoc = 3983;
 		rType = 0;
 		vrLen = 1427;
 		vrLoc = 1796;
@@ -1842,7 +1911,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 55";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1285;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 887;
@@ -1852,7 +1921,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 55";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1285;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 908;
@@ -1862,7 +1931,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 55";
 		rLen = 0;
-		rLoc = 1253;
+		rLoc = 1285;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 1081;
@@ -1872,7 +1941,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 892;
 		vrLoc = 909;
@@ -1882,7 +1951,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 909;
@@ -1892,7 +1961,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 523;
 		vrLoc = 1081;
@@ -1902,7 +1971,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 856;
 		vrLoc = 945;
@@ -1912,7 +1981,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 3756;
@@ -1922,7 +1991,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 56";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1291;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 3756;
@@ -1932,7 +2001,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 111";
 		rLen = 0;
-		rLoc = 4148;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 3756;
@@ -1942,7 +2011,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 109";
 		rLen = 0;
-		rLoc = 3992;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 1966;
 		vrLoc = 1639;
@@ -1952,7 +2021,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 109";
 		rLen = 0;
-		rLoc = 3992;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 187;
 		vrLoc = 4243;
@@ -1962,7 +2031,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 0;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 2323;
 		vrLoc = 1015;
@@ -1972,7 +2041,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 0;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 1336;
@@ -1982,7 +2051,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 75";
 		rLen = 0;
-		rLoc = 2522;
+		rLoc = 3308;
 		rType = 0;
 		vrLen = 455;
 		vrLoc = 2882;
@@ -2012,7 +2081,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 3224;
 		rType = 0;
 		vrLen = 2202;
 		vrLoc = 909;
@@ -2022,7 +2091,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 3224;
 		rType = 0;
 		vrLen = 2202;
 		vrLoc = 909;
@@ -2062,7 +2131,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 3224;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 500;
@@ -2072,7 +2141,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 3224;
 		rType = 0;
 		vrLen = 511;
 		vrLoc = 1015;
@@ -2082,12 +2151,704 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 74";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 3224;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 775;
 	};
-	37AAD8681160DC74004DE3FE /* UploadTutorialViewController.m:92 */ = {
+	378C44A911611994004E383C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 37AAD9521160E865004DE3FE /* chosen.jpg */;
+	};
+	378C44AA11611994004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 70";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 1499;
+	};
+	378C44AB11611994004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: 'NSURLResponse' may not respond to '-statusCode'";
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		rLen = 1;
+		rLoc = 33;
+		rType = 1;
+	};
+	378C44AC11611994004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 74";
+		rLen = 0;
+		rLoc = 3224;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 775;
+	};
+	378C44AD11611994004E383C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 37AAD9521160E865004DE3FE /* chosen.jpg */;
+	};
+	378C44AE11611994004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 70";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 1499;
+	};
+	378C44AF11611994004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 403;
+	};
+	378C44B011611995004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 548;
+	};
+	378C44B3116119EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 548;
+	};
+	378C44B411611A03004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 78";
+		rLen = 0;
+		rLoc = 3224;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 1015;
+	};
+	378C44B511611A03004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 641;
+	};
+	378C44B611611A06004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 549;
+	};
+	378C44B911611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C44BA11611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 24";
+		rLen = 0;
+		rLoc = 620;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 430;
+	};
+	378C44BB11611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 70";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1229;
+		vrLoc = 1499;
+	};
+	378C44BC11611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C44BD11611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 24";
+		rLen = 0;
+		rLoc = 620;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 430;
+	};
+	378C44BE11611A33004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 54";
+		rLen = 0;
+		rLoc = 1112;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 1014;
+	};
+	378C44BF11611A34004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 54";
+		rLen = 0;
+		rLoc = 1112;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 906;
+	};
+	378C44C011611A87004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 641;
+	};
+	378C44C111611A87004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 54";
+		rLen = 0;
+		rLoc = 1112;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 1014;
+	};
+	378C44C211611A8F004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 70";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 1156;
+	};
+	378C44CB11611B7E004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 67";
+		rLen = 0;
+		rLoc = 1743;
+		rType = 0;
+		vrLen = 982;
+		vrLoc = 1156;
+	};
+	378C44CF11611C5C004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 68";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 1386;
+	};
+	378C44D011611C5C004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 68";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1258;
+		vrLoc = 1338;
+	};
+	378C44D111611C9A004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 68";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 1386;
+	};
+	378C44D211611C9E004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 60";
+		rLen = 0;
+		rLoc = 1557;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 1083;
+	};
+	378C44D411611F19004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C44D511611F19004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 60";
+		rLen = 0;
+		rLoc = 1557;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 1085;
+	};
+	378C44D611611F19004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 60";
+		rLen = 0;
+		rLoc = 1557;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 1083;
+	};
+	378C44D711611F19004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 34";
+		rLen = 53;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C44D811611F19004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 71";
+		rLen = 0;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 1715;
+	};
+	378C44DB11611F81004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 71";
+		rLen = 0;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 1715;
+	};
+	378C44DC11611F81004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44DD11611F81004E383C /* UIImage+Resize (1).h */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	378C44DD11611F81004E383C /* UIImage+Resize (1).h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "UIImage+Resize (1).h";
+		path = "/Users/dan/Downloads/UIImage+Resize (1).h";
+		sourceTree = "<absolute>";
+	};
+	378C44DE11611F81004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 71";
+		rLen = 0;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 1715;
+	};
+	378C44DF11611F81004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E011611F81004E383C /* UIImage+Resize (1).h */;
+		name = "UIImage+Resize (1).h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	378C44E011611F81004E383C /* UIImage+Resize (1).h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "UIImage+Resize (1).h";
+		path = "/Users/dan/Downloads/UIImage+Resize (1).h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 266}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 824}";
+		};
+	};
+	378C44E111611FA9004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E011611F81004E383C /* UIImage+Resize (1).h */;
+		name = "UIImage+Resize (1).h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	378C44E211611FBD004E383C /* UIImage+Resize.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 2758}}";
+			sepNavSelRange = "{170, 27}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	378C44E611611FBD004E383C /* UIImage+Resize.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 266}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRange = "{20, 804}";
+		};
+	};
+	378C44F41161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E011611F81004E383C /* UIImage+Resize (1).h */;
+		name = "UIImage+Resize (1).h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	378C44F51161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 11";
+		rLen = 1;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	378C44F61161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E611611FBD004E383C /* UIImage+Resize.h */;
+		name = "UIImage+Resize.h: 8";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 20;
+	};
+	378C44F71161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E211611FBD004E383C /* UIImage+Resize.m */;
+		name = "UIImage+Resize.m: 6";
+		rLen = 27;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	378C44F81161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 4";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 0;
+	};
+	378C44F91161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E011611F81004E383C /* UIImage+Resize (1).h */;
+		name = "UIImage+Resize (1).h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	378C44FA1161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 11";
+		rLen = 1;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	378C44FB1161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E211611FBD004E383C /* UIImage+Resize.m */;
+		name = "UIImage+Resize.m: 10";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	378C44FC1161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E611611FBD004E383C /* UIImage+Resize.h */;
+		name = "UIImage+Resize.h: 8";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 20;
+	};
+	378C44FD1161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 378C44E211611FBD004E383C /* UIImage+Resize.m */;
+		name = "UIImage+Resize.m: 6";
+		rLen = 27;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	378C44FE1161202B004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 86";
+		rLen = 0;
+		rLoc = 2574;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 1749;
+	};
+	378C44FF1161202C004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 86";
+		rLen = 0;
+		rLoc = 2574;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 1977;
+	};
+	378C450011612033004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 73";
+		rLen = 0;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 1749;
+	};
+	378C45031161203E004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 72";
+		rLen = 234;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 1671;
+	};
+	378C45041161203E004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 72";
+		rLen = 234;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 714;
+		vrLoc = 1561;
+	};
+	378C450511612070004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 72";
+		rLen = 234;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 1751;
+	};
+	378C450611612070004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 72";
+		rLen = 234;
+		rLoc = 1751;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 1636;
+	};
+	378C4507116120EB004E383C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 37AAD9521160E865004DE3FE /* chosen.jpg */;
+	};
+	378C4508116120EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 11";
+		rLen = 1;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C4509116120EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 133";
+		rLen = 0;
+		rLoc = 4710;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 4531;
+	};
+	378C450A116120EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 133";
+		rLen = 0;
+		rLoc = 4710;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 4533;
+	};
+	378C450B116120EB004E383C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 37AAD9521160E865004DE3FE /* chosen.jpg */;
+	};
+	378C450C116120EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 11";
+		rLen = 1;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	378C450D116120EB004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 138";
+		rLen = 0;
+		rLoc = 4710;
+		rType = 0;
+		vrLen = 671;
+		vrLoc = 4533;
+	};
+	378C451111612190004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: request for member 'managedObject' in something not a structure or union";
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		rLen = 1;
+		rLoc = 151;
+		rType = 1;
+	};
+	378C451211612190004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 154";
+		rLen = 0;
+		rLoc = 5499;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 5417;
+	};
+	378C4516116122F0004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 24";
+		rLen = 0;
+		rLoc = 620;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 430;
+	};
+	378C4517116122F0004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 156";
+		rLen = 67;
+		rLoc = 5588;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 5417;
+	};
+	378C4518116122F0004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 156";
+		rLen = 67;
+		rLoc = 5588;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 5417;
+	};
+	378C4519116122F0004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 24";
+		rLen = 0;
+		rLoc = 620;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 430;
+	};
+	378C451A116122F0004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 146";
+		rLen = 0;
+		rLoc = 5389;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 4993;
+	};
+	378C451B1161231D004E383C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 142";
+		rLen = 0;
+		rLoc = 5159;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 4993;
+	};
+	37AAD8681160DC74004DE3FE /* UploadTutorialViewController.m:117 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -2099,7 +2860,7 @@
 		functionName = "-sendData:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 92;
+		lineNumber = 117;
 		location = UploadTutorial;
 		modificationTime = 291575241.212625;
 		state = 2;
@@ -2117,7 +2878,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 89";
 		rLen = 0;
-		rLoc = 4226;
+		rLoc = 4710;
 		rType = 0;
 		vrLen = 741;
 		vrLoc = 2930;
@@ -2155,7 +2916,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 46";
 		rLen = 0;
-		rLoc = 972;
+		rLoc = 1002;
 		rType = 0;
 		vrLen = 142;
 		vrLoc = 869;
@@ -2165,7 +2926,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
 		name = "UploadTutorialViewController.m: 99";
 		rLen = 0;
-		rLoc = 3595;
+		rLoc = 4381;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 3070;

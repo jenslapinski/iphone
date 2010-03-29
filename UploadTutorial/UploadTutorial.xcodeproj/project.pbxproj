@@ -18,6 +18,13 @@
 		370253751160BDB400CCBA7A /* EPUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 370253741160BDB400CCBA7A /* EPUploader.m */; };
 		370253781160C3F400CCBA7A /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370253771160C3F400CCBA7A /* happy.jpg */; };
 		370257741160C86400CCBA7A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 370257731160C86400CCBA7A /* libz.1.1.3.dylib */; };
+		378C44C711611B7A004E383C /* negative-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C44C311611B7A004E383C /* negative-red.png */; };
+		378C44C811611B7A004E383C /* positive-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C44C411611B7A004E383C /* positive-grey.png */; };
+		378C44C911611B7A004E383C /* negative-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C44C511611B7A004E383C /* negative-grey.png */; };
+		378C44CA11611B7A004E383C /* positive-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C44C611611B7A004E383C /* positive-green.png */; };
+		378C44E811611FBD004E383C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C44E211611FBD004E383C /* UIImage+Resize.m */; };
+		378C44E911611FBD004E383C /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C44E511611FBD004E383C /* UIImage+Alpha.m */; };
+		378C44EA11611FBD004E383C /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C44E711611FBD004E383C /* UIImage+RoundedCorner.m */; };
 		37AAD87D1160DD46004DE3FE /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD87C1160DD46004DE3FE /* angry.png */; };
 		37AAD9531160E865004DE3FE /* chosen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD9521160E865004DE3FE /* chosen.jpg */; };
 		37AAD9551160E871004DE3FE /* error.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD9541160E871004DE3FE /* error.jpg */; };
@@ -40,6 +47,16 @@
 		370253741160BDB400CCBA7A /* EPUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPUploader.m; sourceTree = "<group>"; };
 		370253771160C3F400CCBA7A /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
 		370257731160C86400CCBA7A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		378C44C311611B7A004E383C /* negative-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "negative-red.png"; sourceTree = "<group>"; };
+		378C44C411611B7A004E383C /* positive-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "positive-grey.png"; sourceTree = "<group>"; };
+		378C44C511611B7A004E383C /* negative-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "negative-grey.png"; sourceTree = "<group>"; };
+		378C44C611611B7A004E383C /* positive-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "positive-green.png"; sourceTree = "<group>"; };
+		378C44E211611FBD004E383C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		378C44E311611FBD004E383C /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		378C44E411611FBD004E383C /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		378C44E511611FBD004E383C /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		378C44E611611FBD004E383C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		378C44E711611FBD004E383C /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		37AAD87C1160DD46004DE3FE /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
 		37AAD9521160E865004DE3FE /* chosen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chosen.jpg; sourceTree = "<group>"; };
 		37AAD9541160E871004DE3FE /* error.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = error.jpg; sourceTree = "<group>"; };
@@ -66,6 +83,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */,
 				1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */,
+				378C44D911611F7A004E383C /* Image */,
 				28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */,
 				370253731160BDB400CCBA7A /* EPUploader.h */,
@@ -107,6 +125,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				378C44C311611B7A004E383C /* negative-red.png */,
+				378C44C411611B7A004E383C /* positive-grey.png */,
+				378C44C511611B7A004E383C /* negative-grey.png */,
+				378C44C611611B7A004E383C /* positive-green.png */,
 				37AAD9541160E871004DE3FE /* error.jpg */,
 				37AAD9521160E865004DE3FE /* chosen.jpg */,
 				37AAD87C1160DD46004DE3FE /* angry.png */,
@@ -126,6 +148,19 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378C44D911611F7A004E383C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				378C44E211611FBD004E383C /* UIImage+Resize.m */,
+				378C44E311611FBD004E383C /* UIImage+RoundedCorner.h */,
+				378C44E411611FBD004E383C /* UIImage+Alpha.h */,
+				378C44E511611FBD004E383C /* UIImage+Alpha.m */,
+				378C44E611611FBD004E383C /* UIImage+Resize.h */,
+				378C44E711611FBD004E383C /* UIImage+RoundedCorner.m */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +211,10 @@
 				37AAD87D1160DD46004DE3FE /* angry.png in Resources */,
 				37AAD9531160E865004DE3FE /* chosen.jpg in Resources */,
 				37AAD9551160E871004DE3FE /* error.jpg in Resources */,
+				378C44C711611B7A004E383C /* negative-red.png in Resources */,
+				378C44C811611B7A004E383C /* positive-grey.png in Resources */,
+				378C44C911611B7A004E383C /* negative-grey.png in Resources */,
+				378C44CA11611B7A004E383C /* positive-green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +229,9 @@
 				1D3623260D0F684500981E51 /* UploadTutorialAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* UploadTutorialViewController.m in Sources */,
 				370253751160BDB400CCBA7A /* EPUploader.m in Sources */,
+				378C44E811611FBD004E383C /* UIImage+Resize.m in Sources */,
+				378C44E911611FBD004E383C /* UIImage+Alpha.m in Sources */,
+				378C44EA11611FBD004E383C /* UIImage+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,8 @@
 		370253781160C3F400CCBA7A /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 370253771160C3F400CCBA7A /* happy.jpg */; };
 		370257741160C86400CCBA7A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 370257731160C86400CCBA7A /* libz.1.1.3.dylib */; };
 		37AAD87D1160DD46004DE3FE /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD87C1160DD46004DE3FE /* angry.png */; };
+		37AAD9531160E865004DE3FE /* chosen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD9521160E865004DE3FE /* chosen.jpg */; };
+		37AAD9551160E871004DE3FE /* error.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37AAD9541160E871004DE3FE /* error.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		370253771160C3F400CCBA7A /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
 		370257731160C86400CCBA7A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 		37AAD87C1160DD46004DE3FE /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		37AAD9521160E865004DE3FE /* chosen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chosen.jpg; sourceTree = "<group>"; };
+		37AAD9541160E871004DE3FE /* error.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = error.jpg; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UploadTutorial-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37AAD9541160E871004DE3FE /* error.jpg */,
+				37AAD9521160E865004DE3FE /* chosen.jpg */,
 				37AAD87C1160DD46004DE3FE /* angry.png */,
 				370253771160C3F400CCBA7A /* happy.jpg */,
 				2899E5210DE3E06400AC0155 /* UploadTutorialViewController.xib */,
@@ -168,6 +174,8 @@
 				2899E5220DE3E06400AC0155 /* UploadTutorialViewController.xib in Resources */,
 				370253781160C3F400CCBA7A /* happy.jpg in Resources */,
 				37AAD87D1160DD46004DE3FE /* angry.png in Resources */,
+				37AAD9531160E865004DE3FE /* chosen.jpg in Resources */,
+				37AAD9551160E871004DE3FE /* error.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

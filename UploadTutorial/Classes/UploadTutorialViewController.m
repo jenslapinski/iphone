@@ -5,10 +5,13 @@
 
 @synthesize imageView;;
 @synthesize smileyView;
-@synthesize commentView;
+@synthesize commentField;
 @synthesize getPhotoButton;
 @synthesize uploadPhotoButton;
+@synthesize commentPreview;
+
 @synthesize smileyMood;
+@synthesize commentMood;
 
 -(IBAction) moodHappy:(id) sender {
 	NSLog(@"Happy");
@@ -20,6 +23,27 @@
 	NSLog(@"Angry");
 	smileyView.image = [UIImage imageNamed:@"angry.png"];
 	smileyMood = @"angry";
+}
+
+-(IBAction) updateText:(id) sender {
+	NSString *text;
+	if([commentField.text length] == 0)
+	{
+		text = @"Please enter your name";
+	}
+	else
+	{
+		text = [[NSString alloc] initWithFormat:@"Hello %@!",commentField.text];
+	}
+	
+	commentPreview.text = text;
+	
+	[text release];
+}
+
+-(IBAction)editingEnded:(id)sender{
+	NSLog(@"editing ended!");
+	[commentField resignFirstResponder];		
 }
 
 - (IBAction)sendData:(id) sender {
@@ -82,6 +106,13 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+	NSData *imageData = UIImageJPEGRepresentation(imageView.image, 90);
+
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:@"chosen.jpg"];
+	
+	[imageData writeToFile:path atomically:YES];
 	[picker dismissModalViewControllerAnimated:YES];
 	imageView.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 }

@@ -1,18 +1,46 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {555, 399}}";
+			sepNavSelRange = "{426, 85}";
+			sepNavVisRange = "{0, 518}";
+		};
+	};
+	1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {555, 476}}";
+			sepNavSelRange = "{407, 0}";
+			sepNavVisRange = "{57, 593}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* UploadTutorial */ = {
 		activeExec = 0;
 		executables = (
-			370252981160AC2300CCBA7A /* UploadTutorial */,
+			370252BB1160AD0B00CCBA7A /* UploadTutorial */,
 		);
+	};
+	28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 399}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 399}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{0, 808}";
+		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 370252981160AC2300CCBA7A /* UploadTutorial */;
+		activeExecutable = 370252BB1160AD0B00CCBA7A /* UploadTutorial */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* UploadTutorial */;
-		codeSenseManager = 370252AF1160AC2600CCBA7A /* Code sense */;
+		codeSenseManager = 370252C71160AD2300CCBA7A /* Code sense */;
 		executables = (
-			370252981160AC2300CCBA7A /* UploadTutorial */,
+			370252BB1160AD0B00CCBA7A /* UploadTutorial */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -20,7 +48,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					377,
 					20,
 					48.16259765625,
 					43,
@@ -37,26 +65,91 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 291548195;
-			PBXWorkspaceStateSaveDate = 291548195;
+			PBXPerProjectTemplateStateSaveDate = 291548427;
+			PBXWorkspaceStateSaveDate = 291548427;
 		};
-		sourceControlManager = 370252AE1160AC2600CCBA7A /* Source Control */;
+		perUserProjectItems = {
+			370252CA1160ADF100CCBA7A /* PBXTextBookmark */ = 370252CA1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252CB1160ADF100CCBA7A /* PBXTextBookmark */ = 370252CB1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252CC1160ADF100CCBA7A /* PBXTextBookmark */ = 370252CC1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252CD1160ADF100CCBA7A /* PBXTextBookmark */ = 370252CD1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252CE1160ADF100CCBA7A /* PBXTextBookmark */ = 370252CE1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252CF1160ADF100CCBA7A /* PBXBookmark */ = 370252CF1160ADF100CCBA7A /* PBXBookmark */;
+			370252D01160ADF100CCBA7A /* PBXTextBookmark */ = 370252D01160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D11160ADF100CCBA7A /* PBXTextBookmark */ = 370252D11160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D21160ADF100CCBA7A /* PBXTextBookmark */ = 370252D21160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D31160ADF100CCBA7A /* PBXTextBookmark */ = 370252D31160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D41160ADF100CCBA7A /* PBXTextBookmark */ = 370252D41160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D51160ADF100CCBA7A /* PBXTextBookmark */ = 370252D51160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D61160ADF100CCBA7A /* PBXTextBookmark */ = 370252D61160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D71160ADF100CCBA7A /* PBXTextBookmark */ = 370252D71160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D81160ADF100CCBA7A /* PBXTextBookmark */ = 370252D81160ADF100CCBA7A /* PBXTextBookmark */;
+			370252D91160ADF100CCBA7A /* PBXTextBookmark */ = 370252D91160ADF100CCBA7A /* PBXTextBookmark */;
+			370252DA1160ADF100CCBA7A /* PBXTextBookmark */ = 370252DA1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252DB1160ADF100CCBA7A /* PBXTextBookmark */ = 370252DB1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252DC1160ADF100CCBA7A /* PBXTextBookmark */ = 370252DC1160ADF100CCBA7A /* PBXTextBookmark */;
+			370252DD1160ADF100CCBA7A /* PlistBookmark */ = 370252DD1160ADF100CCBA7A /* PlistBookmark */;
+			370252DE1160ADF200CCBA7A /* PlistBookmark */ = 370252DE1160ADF200CCBA7A /* PlistBookmark */;
+			370252E41160ADF800CCBA7A /* PlistBookmark */ = 370252E41160ADF800CCBA7A /* PlistBookmark */;
+			3702531C1160B13300CCBA7A /* PlistBookmark */ = 3702531C1160B13300CCBA7A /* PlistBookmark */;
+			3702531D1160B13300CCBA7A /* PBXTextBookmark */ = 3702531D1160B13300CCBA7A /* PBXTextBookmark */;
+			3702531E1160B13300CCBA7A /* PBXTextBookmark */ = 3702531E1160B13300CCBA7A /* PBXTextBookmark */;
+			3702531F1160B13300CCBA7A /* PBXTextBookmark */ = 3702531F1160B13300CCBA7A /* PBXTextBookmark */;
+			370253201160B13300CCBA7A /* PlistBookmark */ = 370253201160B13300CCBA7A /* PlistBookmark */;
+			370253211160B13300CCBA7A /* PBXTextBookmark */ = 370253211160B13300CCBA7A /* PBXTextBookmark */;
+			370253221160B13300CCBA7A /* PBXTextBookmark */ = 370253221160B13300CCBA7A /* PBXTextBookmark */;
+			370253231160B13300CCBA7A /* PBXTextBookmark */ = 370253231160B13300CCBA7A /* PBXTextBookmark */;
+			370253241160B13300CCBA7A /* PBXTextBookmark */ = 370253241160B13300CCBA7A /* PBXTextBookmark */;
+			370253251160B13300CCBA7A /* PBXTextBookmark */ = 370253251160B13300CCBA7A /* PBXTextBookmark */;
+			370253261160B13300CCBA7A /* PBXTextBookmark */ = 370253261160B13300CCBA7A /* PBXTextBookmark */;
+			370253271160B13300CCBA7A /* PBXTextBookmark */ = 370253271160B13300CCBA7A /* PBXTextBookmark */;
+			370253281160B13300CCBA7A /* PBXTextBookmark */ = 370253281160B13300CCBA7A /* PBXTextBookmark */;
+			370253291160B13300CCBA7A /* PBXTextBookmark */ = 370253291160B13300CCBA7A /* PBXTextBookmark */;
+			370253301160B31100CCBA7A /* PBXTextBookmark */ = 370253301160B31100CCBA7A /* PBXTextBookmark */;
+			370253311160B31100CCBA7A /* PBXTextBookmark */ = 370253311160B31100CCBA7A /* PBXTextBookmark */;
+			370253321160B31100CCBA7A /* PBXTextBookmark */ = 370253321160B31100CCBA7A /* PBXTextBookmark */;
+			370253331160B31100CCBA7A /* PBXTextBookmark */ = 370253331160B31100CCBA7A /* PBXTextBookmark */;
+			370253341160B31100CCBA7A /* PBXTextBookmark */ = 370253341160B31100CCBA7A /* PBXTextBookmark */;
+			370253371160B37C00CCBA7A /* PBXTextBookmark */ = 370253371160B37C00CCBA7A /* PBXTextBookmark */;
+			370253381160B37D00CCBA7A /* PBXTextBookmark */ = 370253381160B37D00CCBA7A /* PBXTextBookmark */;
+			3702533B1160B3B600CCBA7A /* PBXTextBookmark */ = 3702533B1160B3B600CCBA7A /* PBXTextBookmark */;
+			3702533D1160B3C800CCBA7A /* PlistBookmark */ = 3702533D1160B3C800CCBA7A /* PlistBookmark */;
+			3702533E1160B3C800CCBA7A /* PBXTextBookmark */ = 3702533E1160B3C800CCBA7A /* PBXTextBookmark */;
+			3702533F1160B3C800CCBA7A /* PBXTextBookmark */ = 3702533F1160B3C800CCBA7A /* PBXTextBookmark */;
+			370253411160B3D700CCBA7A /* PBXTextBookmark */ = 370253411160B3D700CCBA7A /* PBXTextBookmark */;
+			370253421160B3D800CCBA7A /* PBXTextBookmark */ = 370253421160B3D800CCBA7A /* PBXTextBookmark */;
+			370253451160B3F300CCBA7A /* PBXTextBookmark */ = 370253451160B3F300CCBA7A /* PBXTextBookmark */;
+			370253461160B7A000CCBA7A /* PlistBookmark */ = 370253461160B7A000CCBA7A /* PlistBookmark */;
+			370253471160B7A000CCBA7A /* PBXTextBookmark */ = 370253471160B7A000CCBA7A /* PBXTextBookmark */;
+			370253481160B7A000CCBA7A /* PBXTextBookmark */ = 370253481160B7A000CCBA7A /* PBXTextBookmark */;
+			370253491160B7A000CCBA7A /* PlistBookmark */ = 370253491160B7A000CCBA7A /* PlistBookmark */;
+			3702534A1160B7A000CCBA7A /* PBXTextBookmark */ = 3702534A1160B7A000CCBA7A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 370252C61160AD2300CCBA7A /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	370252981160AC2300CCBA7A /* UploadTutorial */ = {
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {555, 399}}";
+			sepNavSelRange = "{0, 365}";
+			sepNavVisRange = "{0, 365}";
+		};
+	};
+	370252BB1160AD0B00CCBA7A /* UploadTutorial */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -64,18 +157,574 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = UploadTutorial;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
-	370252AE1160AC2600CCBA7A /* Source Control */ = {
+	370252C61160AD2300CCBA7A /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
 		};
 	};
-	370252AF1160AC2600CCBA7A /* Code sense */ = {
+	370252C71160AD2300CCBA7A /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	370252CA1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 365;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	370252CB1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370252CC1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	370252CD1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 19";
+		rLen = 85;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	370252CE1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 407;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 57;
+	};
+	370252CF1160ADF100CCBA7A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+	};
+	370252D01160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	370252D11160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 641;
+		vrLoc = 0;
+	};
+	370252D21160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 365;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	370252D31160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 22";
+		rLen = 17;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 94;
+	};
+	370252D41160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	370252D51160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370252D61160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	370252D71160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370252D81160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	370252D91160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	370252DA1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 22";
+		rLen = 17;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 57;
+	};
+	370252DB1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 19";
+		rLen = 85;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	370252DC1160ADF100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UploadTutorialAppDelegate.m */;
+		name = "UploadTutorialAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 407;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 57;
+	};
+	370252DD1160ADF100CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	370252DE1160ADF200CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	370252E41160ADF800CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3702531C1160B13300CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3702531D1160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 19";
+		rLen = 85;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	3702531E1160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	3702531F1160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 17";
+		rLen = 0;
+		rLoc = 921;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	370253201160B13300CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	370253211160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370253221160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	370253231160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 11";
+		rLen = 28;
+		rLoc = 849;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370253241160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UploadTutorialAppDelegate.h */;
+		name = "UploadTutorialAppDelegate.h: 19";
+		rLen = 85;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	370253251160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 11";
+		rLen = 28;
+		rLoc = 849;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	370253261160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	370253271160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 17";
+		rLen = 0;
+		rLoc = 921;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	370253281160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 12";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	370253291160B13300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 16";
+		rLen = 0;
+		rLoc = 920;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	370253301160B31100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 5";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	370253311160B31100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	370253321160B31100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 7";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	370253331160B31100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* UploadTutorialViewController.h */;
+		name = "UploadTutorialViewController.h: 5";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	370253341160B31100CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 18";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 0;
+	};
+	370253371160B37C00CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 19";
+		rLen = 26;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	370253381160B37D00CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 19";
+		rLen = 26;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	3702533B1160B3B600CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 19";
+		rLen = 26;
+		rLoc = 625;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 0;
+	};
+	3702533D1160B3C800CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3702533E1160B3C800CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	3702533F1160B3C800CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	370253411160B3D700CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 68;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	370253421160B3D800CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 68;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	370253451160B3F300CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 8";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	370253461160B7A000CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	370253471160B7A000CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	370253481160B7A000CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 7";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	370253491160B7A000CCBA7A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* UploadTutorial-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/dan/code/xcode/iphone-git/UploadTutorial/UploadTutorial-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	3702534A1160B7A000CCBA7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UploadTutorialViewController.m */;
+		name = "UploadTutorialViewController.m: 14";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
 	};
 }

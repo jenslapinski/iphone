@@ -11,12 +11,12 @@
 }
 
 - (IBAction)pushUpload:(id)sender {
-	
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo {
 	[picker.parentViewController dismissModalViewControllerAnimated:YES];
 	imageView.image = image;
+	smileyView.hidden = NO;
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
